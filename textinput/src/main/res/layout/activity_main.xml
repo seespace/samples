@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIViewGroup
+  xmlns:ui="http://schemas.android.com/apk/res-auto"
+  ui:width="1920"
+  ui:height="1080"
+  >
+
+  <UIStackView
+    ui:id="@+id/form"
+    ui:positionX="800"
+    ui:positionY="300"
+    ui:width="300"
+    >
+    <UITextView
+      ui:fontSize="30"
+      ui:width="300"
+      ui:height="40"
+      ui:text="USERNAME"
+      />
+    <UIViewGroup
+      ui:borderColor="@color/white"
+      ui:borderThickness="1"
+      >
+      <UITextView
+        ui:fontSize="30"
+        ui:height="40"
+        ui:positionX="5"
+        ui:positionY="3"
+        ui:id="@+id/username"
+        ui:text=""
+        ui:width="300"
+        />
+    </UIViewGroup>
+
+    <UIRectView
+      ui:width="300"
+      ui:height="20"
+      ui:visibility="hidden"
+      />
+
+    <UITextView
+      ui:fontSize="30"
+      ui:width="300"
+      ui:height="40"
+      ui:text="PASSWORD"
+      />
+    <UIViewGroup
+      ui:borderColor="@color/white"
+      ui:borderThickness="1"
+      >
+      <UITextView
+        ui:fontSize="30"
+        ui:height="40"
+        ui:positionX="5"
+        ui:positionY="3"
+        ui:id="@+id/password"
+        ui:text=""
+        ui:width="300"
+        />
+    </UIViewGroup>
+
+    <UIRectView
+      ui:width="300"
+      ui:height="60"
+      ui:visibility="hidden"
+      />
+
+    <UIViewGroup
+      ui:borderColor="@color/white"
+      ui:borderThickness="1"
+      >
+      <UITextView
+        ui:fontSize="30"
+        ui:height="40"
+        ui:positionX="5"
+        ui:positionY="3"
+        ui:id="@+id/submit"
+        ui:textAlignment="center"
+        ui:text="SUBMIT"
+        ui:width="300"
+        />
+    </UIViewGroup>
+
+  </UIStackView>
+</UIViewGroup>
